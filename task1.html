@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Bliss Coffee Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .header {
+            background-color: #6b4f4f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #6b4f4f;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Brew Bliss Coffee Shop</h1>
+        <p>Your daily dose of bliss in every cup</p>
+    </div>
+
+    <div class="main">
+        <div class="intro">
+            <h2>Welcome to Brew Bliss</h2>
+            <p>Experience the finest coffee blends from around the world, right here in our cozy coffee shop. Whether you're looking for a strong espresso or a creamy latte, we have something to delight every coffee lover.</p>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich, bold, and full of flavor. Our espresso is made from the finest beans.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth and creamy, our lattes are perfect for a relaxing break.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Enjoy the perfect balance of espresso, steamed milk, and foam.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Brew Bliss Coffee Shop. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
